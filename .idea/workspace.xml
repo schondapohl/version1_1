@@ -29,10 +29,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="14" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.70333">
+            <state line="59" column="14" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.18365288">
               <folding />
             </state>
           </provider>
@@ -289,7 +298,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="14" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.70333">
+        <state line="59" column="14" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.18365288">
           <folding />
         </state>
       </provider>
