@@ -259,7 +259,7 @@ function enableDisableVotings(data) {
                         }
                     }
                 }
-                $('#vortrag_erg_' + i + "").show();
+                $('#vortrag_erg_' + i + "").hide();
                 $('#vortrag_erg_' + i + "").html("Meine Bewertung:<div class=\"kritzusammenfassung\"> - " + data[0].keins + ": " + punkte1 + " Punkte</div><div class=\"kritzusammenfassung\"> - " + data[0].kzwei + ": " + punkte2 + " Punkte</div><div class=\"kritzusammenfassung\"> - " + data[0].kdrei + ": " + punkte3 + " Punkte</div>");
 
             }
