@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+    <link type="text/css" href="css/jquery.mobile-1.3.0.min.css" rel="stylesheet">
+    <link type="text/css" href="css/jquery.mobile.structure-1.3.2.min.css" rel="stylesheet">
+    <link type="text/css" href="css/jquery.mobile.theme-1.3.0.min.css" rel="stylesheet">
+    <script>
+        if (typeof(window.localStorage) != 'undefined') {
+            if (window.localStorage.getItem("status") == null) {
+                window.localStorage.setItem("status", 0)
+            }
+        }
+        else {
+            alert("window.localStorage, not defined");
+        }
+    </script>
+    <title>DAM 2013</title>
+</head>
+<body>
+<!-- BEGIN UMFRAGETABELLE LAYER -->
+<div id="votingDiv" class="hidden">
+    <div class="votingHeadline">Stimmen Sie ab!</div>
+    <div id="votingLoading" class="votingLoading hidden"><img src="img/ajax-loader.gif"><br/><br/>Ihre Anfrage wird
+        bearbeitet ...
+    </div>
+    <table id="umfrageTabelle">
+        <tr>
+            <td id="umfrageTabelletd1">A</td>
+            <td id="umfrageTabelletd2">B</td>
+        </tr>
+        <tr>
+            <td id="umfrageTabelletd3">C</td>
+            <td id="umfrageTabelletd4">D</td>
+        </tr>
+    </table>
+</div>
+
+<div id="impressumDiv" class="hidden">
+    <div class="impressumContainer">
+        <h1>Impressum</h1>
+        <p>Die App wurde von Markus Zippelt für den DAM 2013 Kongress entwickelt.</p>
+        <p>
+            Angaben gem. § 5 TMG
+        </p>
+
+        <p>
+            <b>Kontakt:</b><br/>
+            Markus Zippelt<br/><br/>
+            E-Mail-Adresse: software@emzed.de
+        </p>
+        <div onclick="schliesseImpressum()" style="font-weight:bold;cursor: pointer;margin-top: 50px;text-align: center;">Impressum schließen</div>
+    </div>
+</div>
+<!-- END UMFRAGETABELLE LAYER -->
+<!-- BEGIN HEADLINE -->
+<div data-role="page" data-theme="b" data-content-theme="a">
+<div id="startLogo">
+    <img src="img/logoblau.png"/>
+</div>
+<div data-role="header" data-theme="a" class="">
+    <div style="float:left">
+        <img id="menuIcon" src="img/menu.png" onclick="showMenue()"/>
+    </div>
+    <img id="noconnection" src="img/noconnection.png" class="networkstatus hidden" alt="Verbindung aufbauen"
+         title="Verbindung aufbauen"/>
+    <img id="anfragenaktiv" src="img/ajax-loader2.gif" class="networkstatus"/>
+    <img id="connection" src="img/connection.png" class="networkstatus hidden" alt="Verbunden mit DAM App Server"
+         title="Verbunden mit DAM App Server"/>
+    <h1 style="padding-left: 26px;">DAM 2013</h1>
+</div>
+<div id="menuContainer" class="menuContainer hidden">
+    <ul>
+        <li id="loginDiv">Login</li>
+        <li id="logoutDiv">Logout</li>
+        <li onclick="zeigeImpressum()">Impressum</li>
+        <li class="last" onclick="exitApp()">Beenden</li>
+    </ul>
+</div>
+<!-- END HEADLINE -->
+<!-- BEGIN CONTENT -->
+<div data-role="collapsible-set" class="contentWrapper">
+    <div data-role="collapsible" data-collapsed="true">
+        <h3>DAM 2013</h3>
+        <ul data-role="listview" class="ui-listview">
+            <li class="ui-li ui-li-static ui-body-c fontnormal">
+                <div class="fontnormal" style="line-height: 1.7;margin-bottom: 20px;">
+                    <b>Liebe Kolleginnen und Kollegen,<br/>
+                        liebe Mitglieder und Freunde der DAM,</b><br/><br/>
+                    Die Mikrochirurgie ist eine junge und lebendige Disziplin! Nachdem die grundlegenden Techniken der
+                    Rekonstruktiven Mikrochirurgie in den letzten Jahrzehnten sicher im klinischen Alltag implementiert
+                    worden
+                    sind,
+                    richtet sich nun der Fokus auf Operations- und Kooperationsstrategien sowie die Entwicklung von
+                    ganzheitlichen
+                    Therapiekonzepten. Die Deutschsprachige Arbeitsgemeinschaft für Mikrochirurgie der Peripheren Nerven
+                    und
+                    Gefäße
+                    (DAM) verfolgt das Ziel, die technischen und strategischen Entwicklungen der Mikrochirurgie im
+                    Deutschsprachigen
+                    Raum zu begleiten und stimulieren.<br/><br/>
+
+                    Ganz im Sinne dieser Tradition werden bei der diesjährigen Tagung neben vielfältigen
+                    wissenschaftlichen
+                    Sitzungen auch Workshops zu aktuellen und klinisch relevanten Themen eine zentrale Rolle spielen.
+                    Ziel
+                    wird
+                    es
+                    sein, in interdisziplinär besetzten Sitzungen einen Konsensus zur optimierten Therapie der uns
+                    anvertrauten
+                    Patienten zu erreichen. Internationale Gäste sowohl aus dem deutschsprachigen Raum als auch aus den
+                    USA
+                    werden
+                    unsere Diskussionen mit Ihrer Expertise bereichern. Fächerübergreifend soll so das Wissen in den
+                    Grenzbereichen
+                    der Plastischen Chirurgie und der Mikrochirurgie weiter befördert werden.<br/><br/>
+
+                    Wir freuen uns, gemeinsam mit den Mitarbeitern unserer Klinik dieses interessante wissenschaftliche
+                    Programm
+                    der
+                    diesjährigen DAM-Tagung in einem ganz besonderen Ambiente präsentieren zu dürfen. Das Städtchen
+                    Deidesheim
+                    in
+                    der Pfalz ist mit seinen umliegenden Weingütern der ideale Ort, um das Wissenschaftliche mit dem
+                    Angenehmen
+                    zu
+                    verbinden. Traditionsreiche Gastronomen werden uns bei der Ausrichtung dieser Tagung mit Ihren
+                    kulinarischen
+                    Angeboten unterstützen.<br></div>
+                <img style="margin:20px" class="round" src="img/UlrichKneser.jpg" alt="Ulrich Kenser"
+                     title="Ulrich Kneser"/>
+                <b>Prof. Dr. med. Ulrich Kneser</b>
+                <br>
+                <img src="img/unterschrift1.png" alt="Unterschrift" title="Unterschrift"/>
+                <br>
+                Tagungsleiter
+                <br/>
+                <br/>
+            </li>
+        </ul>
+    </div>
+    <div data-role="collapsible" data-collapsed="true">
+        <h3>Programm&uuml;bersicht</h3>
+        <ul data-filter="true" data-role="listview" class="ui-listview"
+            data-filter-placeholder="Suchen nach Personen/Abstract" id="programmuebersicht">
+        </ul>
+    </div>
+    <div data-role="collapsible" data-collapsed="true" id="waslaeuft">
+        <h3>Was läuft jetzt?</h3>
+        <ul data-filter="false" data-role="listview" class="ui-listview"
+            id="waslaeuftjetzt">
+        </ul>
+    </div>
+    <div data-role="collapsible" data-collapsed="true">
+        <h3>Autoren</h3>
+        <ul data-filter="true" data-role="listview" class="ui-listview" id="autorenliste"
+            data-filter-placeholder="Suchen nach Namen ...">
+        </ul>
+    </div>
+    <div data-role="collapsible" data-collapsed="true">
+        <h3>TED</h3>
+        <ul data-role="listview" class="ui-listview">
+            <li class="ui-li ui-li-static ui-body-c"><span class="fontnormal">Mit der TED Funktion haben Sie die Möglichkeit an "Echtzeit-Umfragen" im Rahmen der Keynote Vorträge teilzunehmen. Bei eingeschalteter App erscheinen die Abstimmungsfelder (A-D) automatisch.<b>
+                Die Abstimmung erfolgt anonym.</b></span></li>
+        </ul>
+    </div>
+    <div data-role="collapsible" data-collapsed="true">
+        <h3>Informationen zur DAM App</h3>
+        <ul data-role="listview" class="ui-listview">
+            <li class="ui-li ui-li-static ui-body-c fontnormal"><span class="">Hier erhalten Sie alle Informationen zur kongressbegleitenden App.</span>
+
+                <div class="fontnormal" style="margin-top: 10px;">Um die DAM 2013 App mit vollem Funktionsumfang zu
+                    nutzen,
+                    benötigen Sie eine Internetverbindung.
+                </div>
+            </li>
+            <li class="ui-li ui-li-static ui-body-c"><img src="img/connection.png" style="margin: 25px 15px;"/><span
+                    class="fontnormal">Ist dieses Symbol in der rechten oberen
+            Ecke zu sehen, sind Sie mit dem DAM Server verbunden und können an unseren Umfragen teilnehmen.</span>
+            </li>
+            <li class="ui-li ui-li-static ui-body-c"><img src="img/noconnection.png" style="margin: 25px 15px;"/><span
+                    class="fontnormal">Ist dieses Symbol in der rechten
+            oberen Ecke zu sehen, sind Sie <b>nicht</b> mit dem DAM Server verbunden. Bitte klicken Sie das Symbol an und
+            es wird erneut versucht, eine Verbindung aufzubauen.</span>
+            </li>
+            <li class="ui-li ui-li-static ui-body-c"><img src="img/help_login.png" style="margin: 15px 15px;"/><span
+                    class="fontnormal">Um die Vorträge unserer Teilnehmer zu bewerten, loggen Sie sich bitte mit Ihren Benutzerdaten, die Sie für www.dam2013.org festgelegt haben, ein. Klicken Sie hierfür bitte auf das Login Symbol und geben im Anschluss Ihre Benutzerdaten ein.</span>
+            </li>
+        </ul>
+    </div>
+    <div data-role="collapsible" data-collapsed="true" data-theme="e" class="ui-disabled"
+         id="abstimmungscontroller">
+        <h3><span id="abstimmungsheadline">Vortr&auml;ge bewerten (bitte einloggen)</span></h3>
+        <li class="ui-li ui-li-static ui-body-c"><span
+                class="fontnormal">Hier können Sie bereits gehaltene Vorträge bewerten. Die Bewertung erfolgt <b>anonym</b> und in 3 Kategorien. Der Vortrag mit der besten Bewertung wird am Ende der Veranstaltung prämiert.</span>
+        </li>
+        <div></div>
+        <div id="dummyVoting">
+            <div class='vortragWrapper ui-disabled hidden' id='vortragWrapper_XXX'>
+                <h4>Vorlage</h4>
+
+                <div class="dummywrapper">
+                    <label for='slider-fill_XXX_1'>K1:</label>
+                    <input type='range' name='slider-fill' id='slider-fill_XXX_1' value='5' min='0' max='10'
+                           data-highlight='true'/>
+                    <label for='slider-fill_XXX_2'>K2:</label>
+                    <input type='range' name='slider-fill' id='slider-fill_XXX_2' value='5' min='0' max='10'
+                           data-highlight='true'/>
+                    <label for='slider-fill_XXX_3'>K3:</label>
+                    <input type='range' name='slider-fill' id='slider-fill_XXX_3' value='5' min='0' max='10'
+                           data-highlight='true'/>
+                </div>
+                <div style="margin-top:20px"></div>
+                <input type="hidden" id="vh_XXX" value=""/>
+                <a id="vote_XXX" onclick="bewerten('vote_XXX')"
+                   class="ui-btn-right ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-b voteButton"
+                   data-rel="dialog" data-inline="true" data-role="button"
+                   data-corners="true" data-shadow="true" data-iconshadow="true"
+                   data-wrapperels="div" data-theme="b">
+                    <span id="bewerten_XXX" class="ui-btn-text">Bewerten</span>
+                </a>
+                <img id="bewerten_laden_XXX" class="hidden bewertenladen" src="img/ajax-loader.gif"/>
+                <label id="vortrag_erg_XXX" class="bold hidden"></label>
+            </div>
+        </div>
+        <div id="votingZiel"></div>
+    </div>
+    <div>
+        <div id="adminButton2" style="display: none;">Trigger Clients</div>
+    </div>
+    <!-- END CONTENT -->
+    <!-- BEGIN Footer -->
+    <div data-role="footer" class="ui-bar" id="footerBar">
+        <h4>Copyright Dam 2013</h4>
+    </div>
+    <!-- END Footer -->
+    <!-- BEGIN Invsible Stuff -->
+    <a id="loginButton2" class="ui-btn-left ui-shadow ui-btn-corner-all"
+       data-transition="slidedown"
+       data-rel="dialog" data-inline="true" data-role="button" href="login.html" data-corners="true"
+       data-shadow="true" data-iconshadow="true" data-wrapperels="div" data-theme="d">
+        <span class="ui-btn-text">Login</span>
+    </a>
+    <a id="votingLink" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-c" data-transition="pop"
+       data-inline="true"
+       data-role="button" data-position-to="window" data-rel="popup" href="#popupDialog" data-corners="true"
+       data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" aria-haspopup="true"
+       aria-owns="#popupDialog">Dialog</a>
+    <!-- END Invsible Stuff -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/mobileScripts.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+        initControls();
+        manageGui();
+        generiereProgramm();
+        generiereAutorenListe();
+    </script>
+    <script src="http://app.emzed.de:8081/socket.io/socket.io.js"></script>
+    <script>clientListen();</script>
+    <script>verbindungpruefen()</script>
+</div>
+</div>
+</body>
+</html>
