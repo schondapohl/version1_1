@@ -27,15 +27,15 @@
     <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/48.png" />
     <icon gap:density="hdpi" gap:platform="android" src="res/icon/android/72.png" />
     <icon gap:density="xhdpi" gap:platform="android" src="res/icon/android/96.png" />
-    <icon gap:platform="blackberry" src="res/icon/blackberry/icon-80.png" />
-    <icon gap:platform="blackberry" gap:state="hover" src="res/icon/blackberry/icon-80.png" />
-    <icon gap:platform="ios" height="57" src="res/icon/ios/icon-57.png" width="57" />
-    <icon gap:platform="ios" height="72" src="res/icon/ios/icon-72.png" width="72" />
-    <icon gap:platform="ios" height="114" src="res/icon/ios/icon-57-2x.png" width="114" />
-    <icon gap:platform="ios" height="144" src="res/icon/ios/icon-72-2x.png" width="144" />
-    <icon gap:platform="webos" src="res/icon/webos/icon-64.png" />
-    <icon gap:platform="winphone" src="res/icon/windows-phone/icon-48.png" />
-    <icon gap:platform="winphone" gap:role="background" src="res/icon/windows-phone/icon-173.png" />
+    <icon gap:platform="blackberry" src="res/icon/blackberry/80.png" />
+    <icon gap:platform="blackberry" gap:state="hover" src="res/icon/blackberry/80.png" />
+    <icon gap:platform="ios" height="57" src="res/icon/ios/57.png" width="57" />
+    <icon gap:platform="ios" height="72" src="res/icon/ios/72.png" width="72" />
+    <icon gap:platform="ios" height="114" src="res/icon/ios/57x2.png" width="114" />
+    <icon gap:platform="ios" height="144" src="res/icon/ios/72x2.png" width="144" />
+    <icon gap:platform="webos" src="res/icon/webos/64.png" />
+    <icon gap:platform="winphone" src="res/icon/windows-phone/48.png" />
+    <icon gap:platform="winphone" gap:role="background" src="res/icon/windows-phone/173.png" />
     <gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
     <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
     <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
@@ -47,64 +47,4 @@
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
-	<feature name="App">
-      <param name="android-package" value="org.apache.cordova.App"/>
-    </feature>
-    <feature name="Geolocation">
-      <param name="android-package" value="org.apache.cordova.GeoBroker"/>
-    </feature>
-    <feature name="Device">
-      <param name="android-package" value="org.apache.cordova.Device"/>
-    </feature>
-    <feature name="Accelerometer">
-      <param name="android-package" value="org.apache.cordova.AccelListener"/>
-    </feature>
-    <feature name="Compass">
-      <param name="android-package" value="org.apache.cordova.CompassListener"/>
-    </feature>
-    <feature name="Media">
-      <param name="android-package" value="org.apache.cordova.AudioHandler"/>
-    </feature>
-    <feature name="Camera">
-      <param name="android-package" value="org.apache.cordova.CameraLauncher"/>
-    </feature>
-    <feature name="Contacts">
-      <param name="android-package" value="org.apache.cordova.ContactManager"/>
-    </feature>
-    <feature name="File">
-      <param name="android-package" value="org.apache.cordova.FileUtils"/>
-    </feature>
-    <feature name="NetworkStatus">
-      <param name="android-package" value="org.apache.cordova.NetworkManager"/>
-    </feature>
-    <feature name="Notification">
-      <param name="android-package" value="org.apache.cordova.Notification"/>
-    </feature>
-    <feature name="Storage">
-      <param name="android-package" value="org.apache.cordova.Storage"/>
-    </feature>
-    <feature name="FileTransfer">
-      <param name="android-package" value="org.apache.cordova.FileTransfer"/>
-    </feature>
-    <feature name="Capture">
-      <param name="android-package" value="org.apache.cordova.Capture"/>
-    </feature>
-    <feature name="Battery">
-      <param name="android-package" value="org.apache.cordova.BatteryListener"/>
-    </feature>
-    <feature name="SplashScreen">
-      <param name="android-package" value="org.apache.cordova.SplashScreen"/>
-    </feature>
-    <feature name="Echo">
-      <param name="android-package" value="org.apache.cordova.Echo"/>
-    </feature>
-    <feature name="Globalization">
-      <param name="android-package" value="org.apache.cordova.Globalization"/>
-    </feature>
-    <feature name="InAppBrowser">
-      <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
-    </feature>
-    <!-- Deprecated plugins element. Remove in 3.0 -->
-    <plugins>
-    </plugins>
 </widget>
