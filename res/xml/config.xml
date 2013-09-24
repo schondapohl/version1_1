@@ -18,16 +18,13 @@
  under the License.
 -->
 	<widget id="com.dam.app" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello Cordova</name>
-
+    <name>DAM 2013</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        App für die 35. Jahrestagung der deutschsprachigen Arbeitsgemeinschaft für Mikrochirurgie der Gefäße und Nerven. Deidesheim 21.11.2013 - 23.11.2013
     </description>
-
-    <author href="http://cordova.io" email="dev@cordova.apache.org">
-        Apache Cordova Team
+    <author email="software@emzed.de" href="http://www.emzed.de">
+        Em Zed
     </author>
-
     <access origin="*"/>
 
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
