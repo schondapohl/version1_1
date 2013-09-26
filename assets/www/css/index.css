@@ -122,6 +122,7 @@ Sony Xperia S
 @media screen and (-webkit-max-device-pixel-ratio: 2.0) {
     body {
         font-size: 11px;
+
     }
 
     #menuContainer li {
@@ -166,7 +167,11 @@ Samsung Galaxy S4
 Sony Xperia Z */
 
 
-
+.element {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
 
 body {
     -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
@@ -178,6 +183,10 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
 
 /* Portrait layout (default) */
