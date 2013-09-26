@@ -21,8 +21,11 @@
 }
 
 /* Non-Retina */
-@media screen and (-webkit-max-device-pixel-ratio: 1) {
+@media screen and (-webkit-max-device-pixel-ratio: 1.5) {
+    body{color:red;font-size: 40px;}
 }
+
+
 
 /* Retina */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),

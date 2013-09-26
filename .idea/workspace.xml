@@ -24,17 +24,15 @@
         <entry file="file://$PROJECT_DIR$/assets/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="19" selection-start="1348" selection-end="1352" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1380060805611" expanded="true" signature="155:3535" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="14" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0">
+            <state line="22" column="16" selection-start="954" selection-end="954" vertical-scroll-proportion="0.29813665">
               <folding />
             </state>
           </provider>
@@ -52,10 +50,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="47" selection-start="12426" selection-end="12426" vertical-scroll-proportion="-23.538462">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="244" column="47" selection-start="12426" selection-end="12426" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,7 +59,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dam_app_public/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="242" column="16" selection-start="13012" selection-end="13055" vertical-scroll-proportion="-13.730769">
+            <state line="242" column="16" selection-start="13012" selection-end="13055" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,17 +69,15 @@
         <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobileScripts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mobileScripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/mobileScripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="230" column="28" selection-start="6931" selection-end="6931" vertical-scroll-proportion="0.296957">
+            <state line="230" column="28" selection-start="6931" selection-end="6931" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1380064565688" expanded="false" signature="23871:23885" placeholder="..." />
               </folding>
@@ -102,9 +96,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/assets/www/config.xml" />
-        <option value="$PROJECT_DIR$/assets/www/css/index.css" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/assets/www/js/mobileScripts.js" />
+        <option value="$PROJECT_DIR$/assets/www/css/index.css" />
       </list>
     </option>
   </component>
@@ -200,6 +194,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="version1_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="version1_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -267,7 +283,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25506938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -338,9 +354,7 @@
     <entry file="file://$PROJECT_DIR$/assets/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="19" selection-start="1348" selection-end="1352" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1380060805611" expanded="true" signature="155:3535" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -358,44 +372,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../buildversion/www/assets/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.035714287">
+        <state line="244" column="47" selection-start="12426" selection-end="12426" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../dam_app_public/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="16" selection-start="13012" selection-end="13055" vertical-scroll-proportion="-13.730769">
+        <state line="242" column="16" selection-start="13012" selection-end="13055" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/mobileScripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="230" column="28" selection-start="6931" selection-end="6931" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1380064565688" expanded="false" signature="23871:23885" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="1348" selection-end="1352" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../buildversion/www/assets/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.035714287" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dam_app_public/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="16" selection-start="13012" selection-end="13055" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="47" selection-start="12426" selection-end="12426" vertical-scroll-proportion="-23.538462">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="244" column="47" selection-start="12426" selection-end="12426" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/js/mobileScripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="28" selection-start="6931" selection-end="6931" vertical-scroll-proportion="0.296957">
+        <state line="230" column="28" selection-start="6931" selection-end="6931" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1380064565688" expanded="false" signature="23871:23885" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="16" selection-start="954" selection-end="954" vertical-scroll-proportion="0.29813665">
+          <folding />
         </state>
       </provider>
     </entry>
