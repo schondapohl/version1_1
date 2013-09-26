@@ -125,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobileScripts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mobileScripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/mobileScripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="214" column="68" selection-start="5918" selection-end="5918" vertical-scroll-proportion="0.3567681">
+            <state line="214" column="68" selection-start="5918" selection-end="5918" vertical-scroll-proportion="-13.6">
               <folding>
                 <marker date="1380233195761" expanded="true" signature="24419:24433" placeholder="..." />
               </folding>
@@ -136,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="394" column="9" selection-start="8025" selection-end="8033" vertical-scroll-proportion="-12.68">
+            <state line="123" column="21" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.6625259">
               <folding />
             </state>
           </provider>
@@ -156,9 +156,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/assets/www/config.xml" />
-        <option value="$PROJECT_DIR$/assets/www/css/index.css" />
         <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/assets/www/js/mobileScripts.js" />
+        <option value="$PROJECT_DIR$/assets/www/css/index.css" />
       </list>
     </option>
   </component>
@@ -603,10 +603,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
+    <entry file="file://$PROJECT_DIR$/assets/www/js/mobileScripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="394" column="9" selection-start="8025" selection-end="8033" vertical-scroll-proportion="-12.68">
-          <folding />
+        <state line="214" column="68" selection-start="5918" selection-end="5918" vertical-scroll-proportion="-13.6">
+          <folding>
+            <marker date="1380233195761" expanded="true" signature="24419:24433" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -713,12 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/mobileScripts.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="68" selection-start="5918" selection-end="5918" vertical-scroll-proportion="0.3567681">
-          <folding>
-            <marker date="1380233195761" expanded="true" signature="24419:24433" placeholder="..." />
-          </folding>
+        <state line="123" column="21" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.6625259">
+          <folding />
         </state>
       </provider>
     </entry>

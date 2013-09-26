@@ -99,6 +99,7 @@ Samsung Galaxy S II
     }
 }
 
+
 /*
 Devices with -webkit-min-device-pixel-ratio: 2.0
 
@@ -117,7 +118,8 @@ Samsung Galaxy S III
 Samsung Galaxy Note II
 Sony Xperia S
 */
-@media screen and (-webkit-max-device-pixel-ratio: 1.5) {
+
+@media screen and (-webkit-max-device-pixel-ratio: 2.0) {
     body {
         font-size: 11px;
     }
@@ -138,34 +140,33 @@ Devices with -webkit-min-device-pixel-ratio: 3.0
 
 HTC Butterfly
 Samsung Galaxy S4
-Sony Xperia Z
+Sony Xperia Z */
 
+@media screen and (-webkit-max-device-pixel-ratio: 3.0) {
+    body {
+        font-size: 12px;
+    }
 
-
-@media screen and (-webkit-max-device-pixel-ratio: 1.5) {
-    body{ font-size: 14px;}
-}
-*/
-
-/* Retina */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-}
-
-/* iPhone Portrait */
-@media screen and (max-device-width: 480px) and (orientation:portrait) {
-}
-
-/* iPhone Landscape */
-@media screen and (max-device-width: 480px) and (orientation:landscape) {
+    #menuContainer li {
+        cursor: pointer;
+        display: inline;
+        font-weight: normal;
+        height: 40px;
+        line-height: 40px;
+        text-shadow: none;
+        padding: 0px 15px;
+    }
 }
 
-/* iPad Portrait */
-@media screen and (min-device-width: 481px) and (orientation:portrait) {
-}
+/*
+Devices with -webkit-min-device-pixel-ratio: 3.0
 
-/* iPad Landscape */
-@media screen and (min-device-width: 481px) and (orientation:landscape) {
-}
+HTC Butterfly
+Samsung Galaxy S4
+Sony Xperia Z */
+
+
+
 
 body {
     -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
