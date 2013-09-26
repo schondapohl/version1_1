@@ -20,10 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="103" selection-start="8235" selection-end="8235" vertical-scroll-proportion="-4.0588236">
+            <state line="124" column="36" selection-start="5367" selection-end="5367" vertical-scroll-proportion="0.33333334">
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="21" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.82056665">
+            <state line="121" column="21" selection-start="2691" selection-end="2691" vertical-scroll-proportion="-31.28">
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/assets/www/config.xml" />
         <option value="$PROJECT_DIR$/assets/www/js/mobileScripts.js" />
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/assets/www/css/index.css" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
       </list>
     </option>
   </component>
@@ -438,9 +438,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="21" selection-start="2691" selection-end="2691" vertical-scroll-proportion="-31.28">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="103" selection-start="8235" selection-end="8235" vertical-scroll-proportion="-4.0588236">
+        <state line="124" column="36" selection-start="5367" selection-end="5367" vertical-scroll-proportion="0.33333334">
           <folding>
             <element signature="n#style#0;n#table#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -451,13 +458,6 @@
             <element signature="n#style#0;n#span#0;n#li#3;n#ul#0;n#div#5;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#li#0;n#div#6;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="21" selection-start="2691" selection-end="2691" vertical-scroll-proportion="0.82056665">
-          <folding />
         </state>
       </provider>
     </entry>
