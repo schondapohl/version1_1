@@ -188,6 +188,8 @@ function enableDisableVotings(data) {
     dlength = data.length;
     var dummyHtml = $('#dummyVoting').html();
     for (var i = 0; i < dlength; i++) {
+
+        /* DYNAMISCHE VERSION
         var votingBlock = dummyHtml.replace(/XXX/g, i);
         votingBlock = votingBlock.replace("K1",data[0].keins);
         votingBlock = votingBlock.replace("K2",data[0].kzwei);
@@ -195,25 +197,34 @@ function enableDisableVotings(data) {
         var ziel = $('#votingZiel').html();
 		var testhtml  = "<div id='aussen'><div>Kategorie 1</div><input type=range min=1 max=50 value=10 id='#slider-fill_0_3'></div>";
 		$('#votingZiel').append(votingBlock);
-        $('#slider-fill_0_1').val(5).slider();
+        $.mobile.slider.prototype.options.initSelector = ".myslider";
+        $('#slider-fill_0_1').slider();
 
-        $('#slider-fill_0_2').val(5).slider();
+        $('#slider-fill_0_2').slider();
 
-        $('#slider-fill_0_3').val(5).slider();
-
+        $('#slider-fill_0_3').slider();
+        */
         /* Vortrag */
         vortrag = data[i];
         console.log("enableDisableVotings:" + vortrag.vtitel + " ist aktiv " + vortrag.aktiv );
         if (vortrag.aktiv == 1) {
             $('#vortragWrapper_' + i + " h4").html(vortrag.vautor  + ": " + vortrag.vtitel);
+            /*var votingBlock = "";
+            votingBlock = $('#vortragWrapper_' + i).html().replace("K1",data[0].keins);
+            votingBlock = votingBlock.replace("K2",data[0].kzwei);
+            votingBlock = votingBlock.replace("K3",data[0].kdrei);*/
+
+            $('#vortragWrapper_' + i).children().eq(1).children().eq(0).html(data[0].keins);
+            $('#vortragWrapper_' + i).children().eq(1).children().eq(2).html(data[0].kzwei);
+            $('#vortragWrapper_' + i).children().eq(1).children().eq(4).html(data[0].kdrei);
             // keine Punkte bisher vergeben
             if (vortrag.eigenePunkte.length == 0) {
                 $('#vh_' + i + "").val(vortrag.vid);
                 $('#vortragWrapper_' + i + "").show();
                 $('#vortragWrapper_' + i + "").removeClass('ui-disabled');
-                /*$('#vote_' + i + "").click(function () {
+                $('#vote_' + i + "").click(function () {
                     bewerten(this.id);
-                })*/
+                })
             }
             else {
                 $('#vortragWrapper_' + i + "").show();
@@ -259,8 +270,9 @@ function enableDisableVotings(data) {
                         }
                     }
                 }
-                $('#vortrag_erg_' + i + "").hide();
-                $('#vortrag_erg_' + i + "").html("Meine Bewertung:<div class=\"kritzusammenfassung\"> - " + data[0].keins + ": " + punkte1 + " Punkte</div><div class=\"kritzusammenfassung\"> - " + data[0].kzwei + ": " + punkte2 + " Punkte</div><div class=\"kritzusammenfassung\"> - " + data[0].kdrei + ": " + punkte3 + " Punkte</div>");
+                $('#vortrag_erg_' + i + "").show();
+                /*$('#vortrag_erg_' + i + "").html("Meine Bewertung:<div class=\"kritzusammenfassung\"> - " + data[0].keins + ": " + punkte1 + " Punkte</div><div class=\"kritzusammenfassung\"> - " + data[0].kzwei + ": " + punkte2 + " Punkte</div><div class=\"kritzusammenfassung\"> - " + data[0].kdrei + ": " + punkte3 + " Punkte</div>");*/
+                $('#vortrag_erg_' + i + "").html("<div class=\"kritzusammenfassung\">Bereits bewertet</div>");
 
             }
         }
