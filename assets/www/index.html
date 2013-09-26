@@ -46,7 +46,9 @@
 <div id="impressumDiv" class="hidden">
     <div class="impressumContainer">
         <h1>Impressum</h1>
+
         <p>Die App wurde von Markus Zippelt für den DAM 2013 Kongress entwickelt.</p>
+
         <p>
             Angaben gem. § 5 TMG
         </p>
@@ -56,7 +58,10 @@
             Markus Zippelt<br/><br/>
             E-Mail-Adresse: software@emzed.de
         </p>
-        <div onclick="schliesseImpressum()" style="font-weight:bold;cursor: pointer;margin-top: 50px;text-align: center;">Impressum schließen</div>
+
+        <div onclick="schliesseImpressum()"
+             style="font-weight:bold;cursor: pointer;margin-top: 50px;text-align: center;">Impressum schließen
+        </div>
     </div>
 </div>
 <!-- END UMFRAGETABELLE LAYER -->
@@ -74,6 +79,7 @@
     <img id="anfragenaktiv" src="img/ajax-loader2.gif" class="networkstatus"/>
     <img id="connection" src="img/connection.png" class="networkstatus hidden" alt="Verbunden mit DAM App Server"
          title="Verbunden mit DAM App Server"/>
+
     <h1 style="padding-left: 26px;">DAM 2013</h1>
 </div>
 <div id="menuContainer" class="menuContainer hidden">
@@ -91,9 +97,9 @@
         <h3>DAM 2013</h3>
         <ul data-role="listview" class="ui-listview">
             <li class="ui-li ui-li-static ui-body-c fontnormal">
-                <div class="fontnormal" style="line-height: 1.7;margin-bottom: 20px;">
-                    <b>Liebe Kolleginnen und Kollegen,<br/>
-                        liebe Mitglieder und Freunde der DAM,</b><br/><br/>
+                <img src="img/dummypixel.png"/>
+                <div class="fontnormal" id="welcomeContainer">
+                    <b>Liebe Kolleginnen und Kollegen, liebe Mitglieder und Freunde der DAM.</b><br/><br/>
                     <span class="fontnormal">Die Mikrochirurgie ist eine junge und lebendige Disziplin! Nachdem die grundlegenden Techniken der
                     Rekonstruktiven Mikrochirurgie in den letzten Jahrzehnten sicher im klinischen Alltag implementiert
                     worden
@@ -133,16 +139,23 @@
                     zu
                     verbinden. Traditionsreiche Gastronomen werden uns bei der Ausrichtung dieser Tagung mit Ihren
                     kulinarischen
-                    Angeboten unterstützen.<br></span></div>
-                <img style="margin:20px" class="round" src="img/UlrichKneser.jpg" alt="Ulrich Kenser"
-                     title="Ulrich Kneser"/>
-                <b>Prof. Dr. med. Ulrich Kneser</b>
-                <br>
-                <img src="img/unterschrift1.png" alt="Unterschrift" title="Unterschrift"/>
-                <br>
-                Tagungsleiter
-                <br/>
-                <br/>
+                    Angeboten unterstützen.</span>
+                    <table style="margin-top:20px">
+                        <tr>
+                            <td>
+                                <img id="kn" class="round" src="img/UlrichKneser.jpg" alt="Ulrich Kenser"
+                                     title="Ulrich Kneser"/>
+                            </td>
+                            <td style="vertical-align: top; line-height: 2em; padding-left: 10px;">
+                                <b>Prof. Dr. med. Ulrich Kneser</b>
+                                <br>
+                                <img src="img/unterschrift1.png" alt="Unterschrift" title="Unterschrift"/>
+                                <br>
+                                Tagungsleiter
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </li>
         </ul>
     </div>
@@ -167,7 +180,7 @@
     <div data-role="collapsible" data-collapsed="true">
         <h3>TED</h3>
         <ul data-role="listview" class="ui-listview">
-            <li class="ui-li ui-li-static ui-body-c"><span class="fontnormal">Mit der TED Funktion haben Sie die Möglichkeit an "Echtzeit-Umfragen" im Rahmen der Keynote Vorträge teilzunehmen. Bei eingeschalteter App erscheinen die Abstimmungsfelder (A-D) automatisch.<b>
+            <li class="ui-li ui-li-static ui-body-c"><span class="fontnormal" style="line-height: 1.7;">Mit der TED Funktion haben Sie die Möglichkeit an "Echtzeit-Umfragen" im Rahmen der Keynote Vorträge teilzunehmen. Bei eingeschalteter App erscheinen die Abstimmungsfelder (A-D) automatisch.<br/><b>
                 Die Abstimmung erfolgt anonym.</b></span></li>
         </ul>
     </div>
@@ -176,21 +189,21 @@
         <ul data-role="listview" class="ui-listview">
             <li class="ui-li ui-li-static ui-body-c fontnormal"><span class="">Hier erhalten Sie alle Informationen zur kongressbegleitenden App.</span>
 
-                <div class="fontnormal" style="margin-top: 10px;">Um die DAM 2013 App mit vollem Funktionsumfang zu
+                <div class="fontnormal" style="margin-top: 10px;line-height: 1.7;">Um die DAM 2013 App mit vollem Funktionsumfang zu
                     nutzen,
                     benötigen Sie eine Internetverbindung.
                 </div>
             </li>
-            <li class="ui-li ui-li-static ui-body-c"><img src="img/connection.png" style="margin: 25px 15px;"/><span
+            <li class="ui-li ui-li-static ui-body-c"><img src="img/connection.png" style="margin: 25px 15px;"/><span style="line-height: 1.7;"
                     class="fontnormal">Ist dieses Symbol in der rechten oberen
             Ecke zu sehen, sind Sie mit dem DAM Server verbunden und können an unseren Umfragen teilnehmen.</span>
             </li>
-            <li class="ui-li ui-li-static ui-body-c"><img src="img/noconnection.png" style="margin: 25px 15px;"/><span
+            <li class="ui-li ui-li-static ui-body-c"><img src="img/noconnection.png" style="margin: 25px 15px;"/><span style="line-height: 1.7;"
                     class="fontnormal">Ist dieses Symbol in der rechten
             oberen Ecke zu sehen, sind Sie <b>nicht</b> mit dem DAM Server verbunden. Bitte klicken Sie das Symbol an und
             es wird erneut versucht, eine Verbindung aufzubauen.</span>
             </li>
-            <li class="ui-li ui-li-static ui-body-c"><img src="img/help_login.png" style="margin: 15px 15px;"/><span
+            <li class="ui-li ui-li-static ui-body-c"><img src="img/help_login.png" style="margin: 15px 15px;"/><span style="line-height: 1.7;"
                     class="fontnormal">Um die Vorträge unserer Teilnehmer zu bewerten, loggen Sie sich bitte mit Ihren Benutzerdaten, die Sie für www.dam2013.org festgelegt haben, ein. Klicken Sie hierfür bitte auf das Login Symbol und geben im Anschluss Ihre Benutzerdaten ein.</span>
             </li>
         </ul>
@@ -199,22 +212,21 @@
          id="abstimmungscontroller">
         <h3><span id="abstimmungsheadline">Vortr&auml;ge bewerten (bitte einloggen)</span></h3>
         <li class="ui-li ui-li-static ui-body-c"><span
-                class="fontnormal">Hier können Sie bereits gehaltene Vorträge bewerten. Die Bewertung erfolgt <b>anonym</b> und in 3 Kategorien. Der Vortrag mit der besten Bewertung wird am Ende der Veranstaltung prämiert.</span>
+                class="fontnormal" style="line-height: 1.7;">Hier können Sie bereits gehaltene Vorträge bewerten. Die Bewertung erfolgt <b>anonym</b> und in 3 Kategorien. Der Vortrag mit der besten Bewertung wird am Ende der Veranstaltung prämiert.</span>
         </li>
         <div></div>
         <div id="dummyVoting">
             <div class='vortragWrapper ui-disabled hidden' id='vortragWrapper_XXX'>
                 <h4>Vorlage</h4>
-
                 <div class="dummywrapper">
                     <label for='slider-fill_XXX_1'>K1:</label>
-                    <input type='range' name='slider-fill' id='slider-fill_XXX_1' value='5' min='0' max='10'
+                    <input type='range' name='slider-fill' id='slider-fill_XXX_1' value='0' min='0' max='10'
                            data-highlight='true'/>
                     <label for='slider-fill_XXX_2'>K2:</label>
-                    <input type='range' name='slider-fill' id='slider-fill_XXX_2' value='5' min='0' max='10'
+                    <input type='range' name='slider-fill' id='slider-fill_XXX_2' value='0' min='0' max='10'
                            data-highlight='true'/>
                     <label for='slider-fill_XXX_3'>K3:</label>
-                    <input type='range' name='slider-fill' id='slider-fill_XXX_3' value='5' min='0' max='10'
+                    <input type='range' name='slider-fill' id='slider-fill_XXX_3' value='0' min='0' max='10'
                            data-highlight='true'/>
                 </div>
                 <div style="margin-top:20px"></div>

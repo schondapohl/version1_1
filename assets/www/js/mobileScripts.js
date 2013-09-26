@@ -196,11 +196,11 @@ function enableDisableVotings(data) {
 		var testhtml  = "<div id='aussen'><div>Kategorie 1</div><input type=range min=1 max=50 value=10 id='#slider-fill_0_3'></div>";
 		$('#votingZiel').append(votingBlock);
         $('#slider-fill_0_1').val(5).slider();
-        $('#o_slider_0_1 ').children().eq(1).children().eq(1).hide();
+
         $('#slider-fill_0_2').val(5).slider();
-        $('#o_slider_0_2 ').children().eq(1).children().eq(1).hide();
+
         $('#slider-fill_0_3').val(5).slider();
-        $('#o_slider_0_3 ').children().eq(1).children().eq(1).hide();
+
         /* Vortrag */
         vortrag = data[i];
         console.log("enableDisableVotings:" + vortrag.vtitel + " ist aktiv " + vortrag.aktiv );
@@ -329,6 +329,7 @@ function showMenue()
 
 function exitApp()
 {
+    logoff();
     console.log("Exit App");
     if(navigator.app){
         navigator.app.exitApp();
