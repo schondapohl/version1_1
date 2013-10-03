@@ -63,6 +63,14 @@ function onSuccess(position) {
         'Heading: '            + position.coords.heading               + '<br />' +
         'Speed: '              + position.coords.speed                 + '<br />' +
         'Timestamp: '          + position.timestamp                    + '<br />');
+
+    alert('Device Name: '     + device.name     + '<br />' +
+        'Device Cordova: '  + device.cordova  + '<br />' +
+        'Device Platform: ' + device.platform + '<br />' +
+        'Device UUID: '     + device.uuid     + '<br />' +
+        'Device Model: '    + device.model    + '<br />' +
+        'Device Version: '  + device.version  + '<br />');
+
 }
 
 // onError Callback receives a PositionError object
