@@ -2412,13 +2412,14 @@
 <script type="text/javascript" src="js/mobileScripts.js"></script>
 <script type="text/javascript">
     app.initialize();
-    initControls();
-    manageGui();
-    generiereProgramm();
-    generiereAutorenListe();
 </script>
 <script src="http://app.emzed.de:8081/socket.io/socket.io.js"></script>
-<script>clientListen();</script>
+<script>
+initControls();
+manageGui();
+generiereProgramm();
+generiereAutorenListe();
+clientListen();</script>
 <script>verbindungpruefen()</script>
 </div>
 </div>
