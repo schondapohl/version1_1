@@ -348,13 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="1348" selection-end="1352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="14" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0">
@@ -399,13 +392,6 @@
           <folding>
             <marker date="1380233195761" expanded="true" signature="24419:24433" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="1348" selection-end="1352" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
