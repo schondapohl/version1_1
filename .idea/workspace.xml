@@ -20,12 +20,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2427" column="21" selection-start="119975" selection-end="119975" vertical-scroll-proportion="-23.192308">
+            <state line="92" column="41" selection-start="3389" selection-end="3389" vertical-scroll-proportion="0.64244187">
               <folding>
-                <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#5;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#5;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobileScripts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mobileScripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/www/js/mobileScripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="18" selection-start="4456" selection-end="4456" vertical-scroll-proportion="0.3809524">
+            <state line="184" column="18" selection-start="4456" selection-end="4456" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1380832019567" expanded="false" signature="24533:24547" placeholder="..." />
               </folding>
@@ -75,8 +75,8 @@
         <option value="$PROJECT_DIR$/assets/www/config.xml" />
         <option value="$PROJECT_DIR$/assets/www/css/index.css" />
         <option value="$PROJECT_DIR$/assets/www/js/index.js" />
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/assets/www/js/mobileScripts.js" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
       </list>
     </option>
   </component>
@@ -329,7 +329,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2413" column="12" selection-start="119692" selection-end="119692" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#5;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#5;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -384,7 +384,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="244" column="47" selection-start="12426" selection-end="12426" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#5;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#5;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -430,20 +430,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/www/js/mobileScripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2427" column="21" selection-start="119975" selection-end="119975" vertical-scroll-proportion="-23.192308">
+        <state line="184" column="18" selection-start="4456" selection-end="4456" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#5;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1380832019567" expanded="false" signature="24533:24547" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/js/mobileScripts.js">
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="18" selection-start="4456" selection-end="4456" vertical-scroll-proportion="0.3809524">
+        <state line="92" column="41" selection-start="3389" selection-end="3389" vertical-scroll-proportion="0.64244187">
           <folding>
-            <marker date="1380832019567" expanded="false" signature="24533:24547" placeholder="..." />
+            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#5;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
