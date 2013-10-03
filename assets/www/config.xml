@@ -7,6 +7,7 @@
     <author email="software@emzed.de" href="http://www.emzed.de">
         Em Zed
     </author>
+	<feature name="http://api.phonegap.com/1.0/battery"/>
 	<feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
