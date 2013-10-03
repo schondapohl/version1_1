@@ -1575,6 +1575,7 @@
 
 <div class='vortragWrapper ui-disabled hidden' id='vortragWrapper_50'>
     <h4>Vorlage</h4>
+
     <div class="dummywrapper">
         <label for='slider-fill_50_1'>K1:</label>
         <input type='range' class="myslider" name='slider-fill' id='slider-fill_50_1' value='0' min='0' max='10'
@@ -2415,12 +2416,13 @@
 </script>
 <script src="http://app.emzed.de:8081/socket.io/socket.io.js"></script>
 <script>
-initControls();
-manageGui();
-generiereProgramm();
-generiereAutorenListe();
-clientListen();</script>
-<script>verbindungpruefen()</script>
+    initControls();
+    manageGui();
+    generiereProgramm();
+    generiereAutorenListe();
+    clientListen();
+    verbindungpruefen();
+</script>
 </div>
 </div>
 </body>
