@@ -182,7 +182,6 @@ function leseVortragsStatus() {
 
 function testlocation()
 {
-    alert("test");
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
 }
 

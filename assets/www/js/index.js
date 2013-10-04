@@ -35,7 +35,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         // app.receivedEvent('deviceready');
-
+        navigator.splashscreen.hide();
 
     },
     // Update DOM on a Received Event
@@ -55,22 +55,12 @@ var app = {
 // onSuccess Geolocation
 //
 function onSuccess(position) {
-    alert('Latitude: '           + position.coords.latitude              + '<br />' +
-        'Longitude: '          + position.coords.longitude             + '<br />' +
-        'Altitude: '           + position.coords.altitude              + '<br />' +
-        'Accuracy: '           + position.coords.accuracy              + '<br />' +
-        'Altitude Accuracy: '  + position.coords.altitudeAccuracy      + '<br />' +
-        'Heading: '            + position.coords.heading               + '<br />' +
-        'Speed: '              + position.coords.speed                 + '<br />' +
-        'Timestamp: '          + position.timestamp                    + '<br />');
+    alert(device.uuid);
+}
 
-    alert('Device Name: '     + device.name     + '<br />' +
-        'Device Cordova: '  + device.cordova  + '<br />' +
-        'Device Platform: ' + device.platform + '<br />' +
-        'Device UUID: '     + device.uuid     + '<br />' +
-        'Device Model: '    + device.model    + '<br />' +
-        'Device Version: '  + device.version  + '<br />');
-
+function test()
+{
+    alert("device" + device.uuid);
 }
 
 // onError Callback receives a PositionError object
