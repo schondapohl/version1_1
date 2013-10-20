@@ -60,7 +60,7 @@ function onSuccess(position) {
 
 function test()
 {
-    alert("device" + device.uuid);
+    alert("device 2id " + device.uuid);
 }
 
 // onError Callback receives a PositionError object
